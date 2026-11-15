@@ -8,15 +8,9 @@
 
 ## 💻 1. Kode Program Pertama
 
-```c
-#include <stdio.h>
 
-int main(void) {
-    printf("Halo, namaku Zhafran\n");
-    printf("Aku sedang belajar C\n");
-    printf("Hari ini hari pertama\n");
-    return 0;
-}
+---
+
 ## 🔍 2. Bedah Kode: Kenapa Ada Baris Ini?
 
 | Potongan Kode | Fungsi & Analogi Sederhana |
