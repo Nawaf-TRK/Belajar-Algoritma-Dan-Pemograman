@@ -13,6 +13,8 @@ int main(void) {
     printf("Hari ini hari pertama\n");
     return 0;
 }
+
+
 2. Bedah Kode: Kenapa Ada Baris Ini?
 #include <stdio.h> : Kunci gudang agar komputer kenal perintah printf.
 
@@ -56,3 +58,5 @@ Error = Kesalahan
 Function = Fungsi/alat
 
 Return = Mengembalikan nilai
+
+
