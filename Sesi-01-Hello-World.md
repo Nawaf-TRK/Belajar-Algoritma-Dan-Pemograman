@@ -7,14 +7,15 @@ Status:✅ Lulus (Program berhasil dijalankan)
 ---
 
 ## 1. Kode Program Pertama
-#include <stdio.h>
+#include<stdio.h>
+int main(void){
 
-int main(void) {
-    printf("Halo, namaku Zhafran\n");
-    printf("Aku sedang belajar C\n");
-    printf("Hari ini hari pertama\n");
+printf("halo nama ku nawaf\n");
+printf("aku sedang belajar C\n");
+printf("hari ini hari pertama\n);
+
+return 0;
 }
-
 ## 2. Bedah Kode: Kenapa Ada Baris Ini?
 Setiap baris punya alasan. Jangan asal hafal!
 
