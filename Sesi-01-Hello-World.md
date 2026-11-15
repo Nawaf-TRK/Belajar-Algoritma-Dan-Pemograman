@@ -1,19 +1,16 @@
-# 📘 Catatan Belajar C — Sesi 1
+📘 Catatan Belajar C — Sesi 1
+Topik: Pengenalan & Hello World
+Status: Lulus
 
-**Topik:** Pengenalan & Hello World
-**Status:** Lulus
-
-## 1. Kode Program Pertama
-```c
+1. Kode Program Pertama
 #include <stdio.h>
 
 int main(void) {
-    printf("Halo, namaku Zhafran\n");
-    printf("Aku sedang belajar C\n");
-    printf("Hari ini hari pertama\n");
-    return 0;
+printf("Halo, namaku Zhafran\n");
+printf("Aku sedang belajar C\n");
+printf("Hari ini hari pertama\n");
+return 0;
 }
-
 
 2. Bedah Kode: Kenapa Ada Baris Ini?
 #include <stdio.h> : Kunci gudang agar komputer kenal perintah printf.
@@ -59,4 +56,4 @@ Function = Fungsi/alat
 
 Return = Mengembalikan nilai
 
-
+Catatan ini dibuat untuk melacak progress belajar C dari dasar.
