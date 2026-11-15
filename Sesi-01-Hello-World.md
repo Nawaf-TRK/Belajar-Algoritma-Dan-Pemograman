@@ -10,14 +10,11 @@ Status:✅ Lulus (Program berhasil dijalankan)
 #include <stdio.h>
 
 int main(void) {
-    // Mencetak 3 baris teks ke layar
     printf("Halo, namaku Zhafran\n");
     printf("Aku sedang belajar C\n");
     printf("Hari ini hari pertama\n");
-    
-    // Laporan ke komputer bahwa program selesai dengan sukses
-    return 0;
 }
+
 ## 2. Bedah Kode: Kenapa Ada Baris Ini?
 Setiap baris punya alasan. Jangan asal hafal!
 
