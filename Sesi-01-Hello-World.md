@@ -1,15 +1,10 @@
-📘 Catatan Belajar C — Sesi 1: Pengenalan & Hello World
-Tanggal: [Isi Tanggal Hari Ini]
-Topik: Setup, Struktur Dasar Program C, Compile vs Runtime Error
-Status: ✅ Lulus (Program berhasil dijalankan)
+# 📘 Catatan Belajar C — Sesi 1
 
-1. Apa itu Algoritma?
-Algoritma adalah urutan langkah logis dan terbatas untuk menyelesaikan masalah. Program C adalah implementasi dari algoritma tersebut agar bisa dijalankan oleh komputer.
+**Topik:** Pengenalan & Hello World
+**Status:** Lulus
 
-2. Kode Program Pertama
-Ini adalah kode yang pertama kali berhasil saya jalankan:
-
-c
+## 1. Kode Program Pertama
+```c
 #include <stdio.h>
 
 int main(void) {
@@ -18,73 +13,46 @@ int main(void) {
     printf("Hari ini hari pertama\n");
     return 0;
 }
-3. Bedah Kode: Kenapa Ada Baris Ini?
-Setiap baris punya alasan. Jangan asal hafal!
+2. Bedah Kode: Kenapa Ada Baris Ini?
+#include <stdio.h> : Kunci gudang agar komputer kenal perintah printf.
 
-#include <stdio.h>
+int main(void) : Pintu masuk utama program. Komputer mulai membaca dari sini.
 
-Kenapa: Ini seperti mengambil "kunci gudang". Tanpa ini, komputer tidak kenal perintah printf.
+{ ... } : Pagar area program.
 
-Untuk apa: Memberi tahu compiler bahwa kita mau pakai alat dari library standar C (Standard Input/Output).
+printf("...\n"); : Mencetak teks ke layar. \n artinya Enter. Wajib diakhiri titik koma ;.
 
-int main(void)
+return 0; : Laporan ke komputer bahwa program sukses (0 = sukses).
 
-Kenapa: Ini adalah pintu masuk utama (pintu depan) program. Komputer butuh tahu dari mana mulai membaca kodemu.
+3. Dua Jenis Error
+Compile-Time Error: Salah ketik/aturan (misal: lupa titik koma). Program tidak jadi dibuat.
 
-Untuk apa: Tempat mengeksekusi semua instruksi. int berarti program akan melaporkan angka (exit code) saat selesai.
+Runtime Error: Kode benar, tapi logikanya salah (misal: bagi 0). Program jadi, tapi crash.
 
-{ ... } (Kurung Kurawal)
+4. Tips Code::Blocks
+Selalu tekan F9 (Build and Run) untuk menjalankan program.
 
-Kenapa: Sebagai pagar/isi rumah.
+Jangan cuma klik Run kalau belum di-Build.
 
-Untuk apa: Menandakan area kode milik fungsi main.
+Cek error di tab Build Log di bawah layar.
 
-printf("...\n");
+5. Kosakata English
+Statement = Pernyataan/instruksi
 
-Kenapa: Perintah untuk mencetak teks ke layar. \n adalah kode untuk "Enter" (pindah baris). ; (titik koma) wajib ada di setiap akhir perintah.
+Syntax = Aturan penulisan
 
-Untuk apa: Menampilkan output ke pengguna.
+Compiler = Penerjemah kode
 
-return 0;
+Execute = Menjalankan
 
-Kenapa: Laporan ke komputer bahwa program selesai dengan sukses.
+Output = Keluaran/hasil
 
-Untuk apa: 0 berarti sukses. Kalau ada masalah, nilainya selain 0.
+Variable = Wadah nilai
 
-4. Dua Jenis Error (Penting!)
-Ini fondasi untuk debugging (mencari kesalahan):
+Declaration = Deklarasi/pernyataan
 
-Compile-Time Error (Salah Sebelum Jalan)
+Error = Kesalahan
 
-Penyebab: Kesalahan penulisan/aturan (syntax), misalnya lupa titik koma ;.
+Function = Fungsi/alat
 
-Akibat: Program tidak jadi dibuat. Compiler langsung marah dan menolak.
-
-Runtime Error (Salah Saat Jalan)
-
-Penyebab: Kode benar secara tulisan, tapi logikanya bermasalah (misal: bagi dengan nol).
-
-Akibat: Program jadi dibuat, tapi crash atau hasilnya aneh saat dijalankan.
-
-5. Tips Code::Blocks (Tools yang Saya Pakai)
-Tombol F9 = Build and Run (Kompilasi lalu Jalankan). Ini tombol sakti!
-
-Jangan cuma klik "Run" (panah hijau) kalau belum di-Build.
-
-Pesan error bisa dilihat di tab Build Log di bagian bawah.
-
-6. Kosakata (English)
-Wajib dihafal untuk sesi berikutnya.
-
-No	English	Arti
-1	Statement	Pernyataan / instruksi
-2	Syntax	Aturan penulisan
-3	Compiler	Penerjemah kode
-4	Execute	Menjalankan
-5	Output	Keluaran / hasil
-6	Variable	Wadah nilai
-7	Declaration	Deklarasi / pernyataan
-8	Error	Kesalahan
-9	Function	Fungsi / alat
-10	Return	Mengembalikan nilai
-Catatan ini dibuat untuk melacak progress belajar C dari dasar. 🚀
+Return = Mengembalikan nilai
