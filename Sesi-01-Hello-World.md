@@ -11,7 +11,7 @@
 #include <stdio.h>
 
 int main(void) {
-    printf("Halo, namaku Zhafran\n");
+    printf("Halo, namaku Nawaf\n");
     printf("Aku sedang belajar C\n");
     printf("Hari ini hari pertama\n");
     return 0;
